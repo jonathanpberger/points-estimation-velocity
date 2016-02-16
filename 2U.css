@@ -1,0 +1,187 @@
+/* Header/Footer stuff */
+/*div.my-header {
+    background-color: #F00;
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ffb76b), color-stop(0%,#ffa73d), color-stop(0%,#ffffff), color-stop(10%,#ffffff), color-stop(25%,#F77A00), color-stop(100%,#F77A00));
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 30px;
+    width: 100%;
+    text-align: left;
+}
+*/
+div.my-footer {
+    background-color: #002d58;
+    color: #e7e7e7;
+    font-weight: 500;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 40px;
+    width: 100%;
+}
+
+div.my-footer span {
+    font-size: 10pt;
+    position: absolute;
+    bottom: 10px;
+}
+
+div.my-footer span.left {
+    left: 15px;
+}
+
+div.my-footer span.right {
+    right: 15px;
+}
+
+/* 2U Styles ------------*/
+
+@font-face {
+    font-family: "Gotham";
+    src: url('../fonts/Gotham-Book.otf');
+}
+
+@font-face {
+    font-family: "Gotham";
+    src:      url('../fonts/Gotham-BookItalic.otf');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Gotham";
+    src:      url('../fonts/Gotham-XLight.otf');
+    font-style: 100;
+}
+
+@font-face {
+    font-family: "Gotham";
+    src:      url('../fonts/Gotham-Light.otf');
+    font-style: 200;
+}
+
+/*Gotham-MediumItalic.otf*/
+/*Gotham-XLightItalic.otf*/
+
+@font-face {
+    font-family: "Gotham";
+    src: url('../fonts/Gotham-Bold.otf');
+    font-weight: bold;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Gotham";
+    src: url('../fonts/Gotham-Black.otf');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "Gotham";
+    src: url('../fonts/Gotham-Ultra.otf');
+    font-weight: 900;
+}
+
+/* ###### JPB Deck Styles */
+
+/* Colors
+2U Blue: #1576d4
+Fog: #e7e7e7
+Midnight: #002d58
+Dandelion: #ffcf37
+
+*/
+
+.remark-slide-content {
+  background-color: #1576d4;
+  color: #e7e7e7;
+}
+
+body {
+  font-family: 'Gotham';
+}
+
+h1, h2, h3, .f1, .f2, .f3 {
+  font-family: 'Gotham';
+  font-weight: 800;
+}
+
+h2 {
+  font-weight: 900;
+}
+
+h3 {
+  font-weight: 500;
+}
+
+strong {
+  color: #ffcf37;
+}
+
+body .remark-slide-content h1,
+body .remark-slide-content .f1 {
+  font-size: 80px;
+  line-height: 0.9em;
+  text-transform: uppercase;
+}
+
+.f2 {
+  font-size: 1.5em;
+  text-transform: initial;
+  -webkit-margin-before: 0.83em;
+  -webkit-margin-after: 0.83em;
+  -webkit-margin-start: 0px;
+  jo-webkit-margin-end: 0px;
+}
+
+.f3 {
+  font-size: 1.17em;
+  text-transform: initial;
+}
+
+body .remark-slide-content p,
+body .remark-slide-content li {
+  font-size: 1.5em;
+  margin: 0 0.2em;
+}
+
+body. .remark-slide-content .longlist li {
+  font-size: 1em;
+}
+
+body .remark-slide-content blockquote {
+  padding-left: 2em;
+  border-left: 10px solid #ccc;
+  margin-left: 0;
+}
+body .remark-slide-content blockquote p {
+  font-style: italic;
+  font-family: courier;
+  font-size: 1.5em;
+}
+
+body .remark-slide-content p a {
+  font-weight: 500;
+}
+
+body .remark-slide-content strong {
+  font-weight: 500;
+}
+
+body .remark-slide-content a:hover {
+  text-decoration: underline;
+}
+
+body .remark-slide-content a,
+body .remark-slide-content a:visited {
+  color: #000;
+  /*text-decoration: none;*/
+}
+
+.imageslide img {
+  max-height: 500px;
+}
+
+.imagecell img {
+  max-height: 200px;
+}
