@@ -90,18 +90,23 @@ Fog: #e7e7e7
 Midnight: #002d58
 Dandelion: #ffcf37
 
+2U blue 10% lighter: #1F8DF1
+2U blue 20% lighter: #38A6FF
 */
 
 .remark-slide-content {
   background-color: #1576d4;
+  background-size: cover;
   color: #e7e7e7;
 }
 
 body {
   font-family: 'Gotham';
+
 }
 
 h1, h2, h3, .f1, .f2, .f3 {
+  text-shadow: -2px -1px 2px #1F8DF1
   font-family: 'Gotham';
   font-weight: 800;
 }
